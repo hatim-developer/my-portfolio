@@ -1,8 +1,12 @@
+import Header from "components/Header";
+import Body from "containers/Body";
+
 function App() {
   return (
-    <>
-      <h1 className="text-center text-3xl font-bold underline">My Portfolio</h1>
-    </>
+    <div className="bg-body-color min-h-screen">
+      <Header />
+      <Body />
+    </div>
   );
 }
 
