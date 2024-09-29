@@ -4,3 +4,10 @@ export interface IService {
   icon: string;
   skills: string[];
 }
+
+export interface IWork {
+  role: string;
+  employer: string;
+  duration: string;
+  work: string[];
+}

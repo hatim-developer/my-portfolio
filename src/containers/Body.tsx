@@ -1,6 +1,7 @@
 import Divider from "components/Divider";
 import Hero from "components/Hero";
 import Services from "containers/Services";
+import Experience from "./Experience";
 
 const Body = () => {
   return (
@@ -8,6 +9,8 @@ const Body = () => {
       <Hero />
       <Divider />
       <Services />
+      <Divider />
+      <Experience />
     </main>
   );
 };
