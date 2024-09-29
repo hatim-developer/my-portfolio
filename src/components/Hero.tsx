@@ -13,24 +13,21 @@ const Hero = () => {
         className="flex flex-col items-center justify-center md:w-1/2"
         aria-label="Profile details"
       >
-        <span className="text-highlight-color self-start font-mono text-base">
-          Hi, I am
-        </span>
         <div id="profile_pic" className="p-4">
           <img
             src={profilePhoto}
             alt="Profile Picture"
-            className="ring-secondary-color h-auto w-auto max-w-52 rounded-full p-1 ring-2 sm:max-w-72"
+            className="h-auto w-auto max-w-52 rounded-full p-1 ring-2 ring-secondary-color sm:max-w-72"
           ></img>
         </div>
-        <h1 className="text-primary-color text-nowrap py-2 text-center font-sans text-4xl font-bold">
+        <h1 className="text-nowrap py-2 text-center font-sans text-4xl font-bold text-primary-color">
           Mohammed Hatim
         </h1>
-        <h2 className="text-secondary-color text-nowrap text-right font-sans text-xl">
+        <h2 className="text-nowrap text-right font-sans text-xl text-secondary-color">
           Senior Frontend Engineer
         </h2>
-        <p className="text-neutral-color my-4 text-center font-sans">
-          <span className="text-highlight-color text-nowrap">
+        <p className="my-4 text-center font-sans text-neutral-color">
+          <span className="text-nowrap text-highlight-color">
             I love coding
           </span>{" "}
           & build the products loved by audience.
@@ -38,23 +35,23 @@ const Hero = () => {
       </article>
       <article
         id="about"
-        className="text-neutral-color flex w-5/6 flex-col items-center text-justify text-base leading-8 md:w-1/2"
+        className="flex w-5/6 flex-col items-center text-justify text-base leading-8 text-neutral-color md:w-1/2"
         aria-label="About me"
       >
         <hr className="my-4 h-1 w-5/6 md:hidden"></hr>
 
         <p className="mb-4 indent-8">
           Hey 👋, Hatim here, I am
-          <span className="text-secondary-color font-semibold">
+          <span className="font-semibold text-secondary-color">
             {" "}
             Senior Front End Engineer{" "}
           </span>
           having 7+ years of experience in software industry developing the{" "}
-          <span className="text-secondary-color font-semibold">
+          <span className="font-semibold text-secondary-color">
             beautiful websites, games and apps,{" "}
           </span>
           I find joy in creating
-          <span className="text-secondary-color font-semibold">
+          <span className="font-semibold text-secondary-color">
             {" "}
             web products{" "}
           </span>
@@ -81,7 +78,7 @@ const Hero = () => {
           className="-order-1 mt-2 md:order-1 md:mt-6"
           aria-label="Top skills"
         >
-          <h2 className="text-secondary-color text-center md:text-left md:after:content-[':']">
+          <h2 className="text-center text-secondary-color md:text-left md:after:content-[':']">
             Top Skills
           </h2>
           <SkillList
@@ -93,7 +90,8 @@ const Hero = () => {
               "Tailwindcss",
               "Phaser",
               "PixiJs",
-              "Cocos2dJs",
+              "Cocos2d",
+              "Cocos Creator",
             ]}
           />
         </section>
