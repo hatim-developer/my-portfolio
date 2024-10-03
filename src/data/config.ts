@@ -1,5 +1,6 @@
-import { IService, IWork } from "types";
+import { IProject, IService, IWork } from "types";
 
+/// Services Data --------------------
 export const services: IService[] = [
   {
     title: "Game Development",
@@ -52,6 +53,7 @@ export const services: IService[] = [
   },
 ];
 
+/// Experience Data ------------------
 export const experience: IWork[] = [
   {
     role: "Senior Software Engineer • Team Lead",
@@ -90,6 +92,156 @@ export const experience: IWork[] = [
       "Made learning easy for students by implementing 50+ animated interactive across subjects physics, maths, and english",
       "Developed geometry drawing tool - for grade 2 and 3 students to play around the basic point, lines, triangles and poly shapes",
       "Improved quality and performance of games and interactive by fixing major bugs which improved the avg. session time by 20% and increased product ratings",
+    ],
+  },
+];
+
+/// Projects Data --------------------
+export const projects: IProject[] = [
+  {
+    title: "Mahjong Tile Match Quest",
+    description:
+      "A most fun and amazing puzzle 2D mahjong tile matching game with multiple variations and challenges.",
+    thumbnail: "mahjong_quest.png",
+    skills: [
+      "Typescript",
+      "Cocos2d",
+      "LiveOps",
+      "IAP",
+      "Firebase",
+      "Ironsource Ads",
+      "AJAX",
+    ],
+    links: [
+      {
+        type: "play_store",
+        address:
+          "https://play.google.com/store/apps/details?id=com.hashcube.mahjongfree",
+      },
+      {
+        type: "app_store",
+        address:
+          "https://apps.apple.com/us/app/mahjong-quest-majong-games/id1227443330",
+      },
+    ],
+  },
+
+  {
+    title: "Sudoku Quest",
+    description:
+      "Sudoku Quest has brain challenging CLASSIC SUDOKU puzzles. Over 2000+ Challenging Levels.",
+    thumbnail: "sudoku_quest.png",
+    skills: [
+      "Javascript",
+      "Cocos2d",
+      "Daily Puzzle",
+      "IAP",
+      "Firebase",
+      "Applovin ads",
+      "AJAX",
+    ],
+    links: [
+      {
+        type: "play_store",
+        address:
+          "https://play.google.com/store/apps/details?id=com.hashcube.sudokuquest",
+      },
+      {
+        type: "app_store",
+        address:
+          "https://apps.apple.com/us/app/sudoku-quest-color-soduku-game/id671755288",
+      },
+    ],
+  },
+
+  {
+    title: "Space Jump - HTML5",
+    description:
+      "Is a fun and interactive 2D game designed to teach young students the basics of mouse and keyboard interactions.",
+    thumbnail: "space_jump.png",
+    skills: ["Javascript", "HTML5", "Phaser", "CSS", "jQuery", "XML"],
+    links: [],
+  },
+
+  {
+    title: "Num Jump - HTML5",
+    description:
+      "Is a fun and interactive 2D game designed to teach young students the basic concepts of addition and subtraction.",
+    thumbnail: "num_jump.png",
+    skills: ["Javascript", "HTML5", "Phaser", "CSS", "jQuery", "XML"],
+    links: [],
+  },
+
+  {
+    title: "Drone Dash - HTML5",
+    description:
+      "Is a fun and engaging horizontal multiplayer racing game where students can compete against each other.",
+    thumbnail: "drone_dash.png",
+    skills: [
+      "Javascript",
+      "HTML5",
+      "Cocos2d",
+      "Websocket",
+      "Multiplayer",
+      "XML",
+    ],
+    links: [],
+  },
+
+  {
+    title: "Toy Factory - HTML5",
+    description:
+      "Is an educational game designed to help young students learn counting by counting toys in a factory setting. ",
+    thumbnail: "toy_factory.png",
+    skills: ["Javascript", "HTML5", "Phaser", "CSS", "jQuery", "XML"],
+    links: [],
+  },
+
+  {
+    title: "Game-A-Thon Website",
+    description:
+      "A responsive website for an event hosted in different schools to create excitement among student about our games.",
+    thumbnail: "web_game_a_thon.png",
+    skills: [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "Bootstrap",
+      "Responsive",
+      "jQuery",
+      "AWS",
+      "Lambda",
+      "RDBMS",
+    ],
+    links: [
+      {
+        type: "link",
+        address: "https://ei-gameathon.mindspark.in/gameathon/index_1.php",
+      },
+    ],
+  },
+
+  {
+    title: "LiveOps Manager Website",
+    description:
+      "A responsive website for management of liveOps events & hosting of tournaments and sales for games from server.",
+    thumbnail: "web_liveops.png",
+    skills: [
+      "React",
+      "Typescript",
+      "AJAX",
+      "HTML",
+      "CSS3",
+      "AWS",
+      "NodeJs",
+      "Express",
+      "RDBMS",
+    ],
+    links: [
+      {
+        type: "link",
+        address: "https://mahjong.hashcube.com/event",
+      },
     ],
   },
 ];

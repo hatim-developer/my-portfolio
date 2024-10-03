@@ -2,7 +2,7 @@ import logo from "assets/img/logo.png";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 bg-body-color shadow-sm shadow-all-color-950">
+    <header className="shadow-shadow-color sticky top-0 z-10 bg-body-color shadow-md">
       <section className="mx-auto flex max-w-screen-lg flex-row flex-wrap items-center justify-between px-4 py-3">
         <img
           src={logo}

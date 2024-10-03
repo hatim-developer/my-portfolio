@@ -11,3 +11,18 @@ export interface IWork {
   duration: string;
   work: string[];
 }
+
+type TLink = {
+  type: "github" | "link" | "play_store" | "app_store";
+  address: string;
+};
+
+export interface IProject {
+  title: string;
+  description: string;
+  thumbnail: string;
+  skills: string[];
+  links: TLink[];
+}
+
+export type TImageProps = React.ImgHTMLAttributes<HTMLImageElement>;

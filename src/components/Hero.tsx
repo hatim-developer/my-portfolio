@@ -93,6 +93,7 @@ const Hero = () => {
               "Cocos2d",
               "Cocos Creator",
             ]}
+            className="md:justify-start"
           />
         </section>
       </article>
