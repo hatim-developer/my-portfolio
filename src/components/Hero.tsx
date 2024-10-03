@@ -1,5 +1,6 @@
 import profilePhoto from "assets/img/profile_photo.png";
 import SkillList from "containers/SkillList";
+import SocialConnect from "./SocialConnect";
 
 const Hero = () => {
   return (
@@ -32,6 +33,7 @@ const Hero = () => {
           </span>{" "}
           & build the products loved by audience.
         </p>
+        <SocialConnect />
       </article>
       <article
         id="about"
