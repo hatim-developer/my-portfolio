@@ -26,7 +26,7 @@ const Experience = () => {
                 aria-label={detail.role}
                 key={tab}
                 tabIndex={tab}
-                className={`h-11 flex-1 text-nowrap border-b-2 ${tabIndex === tab ? "bg-highlight-color" : "border-neutral-color/50"} px-5 text-center md:flex-none md:border-b-0 md:border-l-2 md:text-left ${tab === tabIndex ? "bg-all-color-800 text-highlight-color" : "bg-body-color text-neutral-color"} hover:bg-all-color-800`}
+                className={`h-11 flex-1 text-nowrap border-b-2 ${tabIndex === tab ? "border-highlight-color" : "border-neutral-color/50"} px-5 text-center md:flex-none md:border-b-0 md:border-l-2 md:text-left ${tab === tabIndex ? "bg-all-color-800 text-highlight-color" : "bg-body-color text-neutral-color"} hover:bg-all-color-800`}
                 onClick={(e) => setTabIndex(e.currentTarget.tabIndex)}
               >
                 {detail.employer}
