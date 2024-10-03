@@ -1,14 +1,15 @@
 import Divider from "components/Divider";
+import { ICON_PATH } from "constants";
 import { IService } from "types";
 
 const Service = ({ service }: { service: IService }) => {
   return (
     <article
-      className={`rounded-lg border border-neutral-color border-opacity-45 bg-all-color-900 p-6 text-center shadow-md shadow-all-color-950 transition-transform hover:scale-105 hover:bg-all-color-950`}
+      className="bg-body-color-secondary rounded-xl border-2 border-neutral-color/40 p-6 text-center transition-transform hover:scale-105 hover:border-highlight-color/80 hover:bg-body-color"
       aria-label={`Service: ${service.title}`}
     >
       <img
-        src={`src/assets/icons/${service.icon}.svg`}
+        src={`${ICON_PATH + service.icon}.svg`}
         alt={`Image ${service.icon} icon`}
         className="mx-auto max-w-14"
       ></img>

@@ -10,6 +10,7 @@ export default defineConfig({
       containers: "/src/containers",
       assets: "/src/assets",
       data: "/src/data",
+      constants: "/src/constants",
     },
   },
 });
