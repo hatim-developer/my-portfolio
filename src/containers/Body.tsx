@@ -3,6 +3,7 @@ import Hero from "components/Hero";
 import Services from "containers/Services";
 import Experience from "./Experience";
 import Projects from "./ProjectsList";
+import Contact from "components/Contact";
 
 const Body = () => {
   return (
@@ -14,6 +15,8 @@ const Body = () => {
       <Experience />
       <Divider />
       <Projects />
+      <Divider />
+      <Contact />
     </main>
   );
 };
