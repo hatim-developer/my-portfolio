@@ -24,7 +24,7 @@ const Hero = () => {
           Mohammed Hatim
         </h1>
         <h2 className="text-nowrap text-right font-sans text-xl text-secondary-color">
-          Senior Frontend Engineer
+          Senior Software Engineer
         </h2>
         <p className="my-4 text-center font-sans text-neutral-color">
           <span className="text-nowrap text-highlight-color">
@@ -44,7 +44,7 @@ const Hero = () => {
           Hey 👋, Hatim here, I am
           <span className="font-semibold text-secondary-color">
             {" "}
-            Senior Front End Engineer{" "}
+            Senior Software Engineer{" "}
           </span>
           having 7+ years of experience in software industry developing the{" "}
           <span className="font-semibold text-secondary-color">
