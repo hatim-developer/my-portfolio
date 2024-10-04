@@ -1,2 +1,2 @@
-export const ICON_PATH = "src/assets/icons/";
-export const THUMBNAIL_PATH = "src/assets/thumbnails/";
+export const ICON_PATH = "/static_assets/icons/";
+export const THUMBNAIL_PATH = "/static_assets/thumbnails/";

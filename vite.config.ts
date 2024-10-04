@@ -13,4 +13,5 @@ export default defineConfig({
       constants: "/src/constants",
     },
   },
+  assetsInclude: ["**/*.svg"],
 });
