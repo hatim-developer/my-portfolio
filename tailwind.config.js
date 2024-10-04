@@ -5,8 +5,21 @@ const colors = require("tailwindcss/colors");
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        "open-menu": {
+          "0%": { transform: "scaleY(0)" },
+          "80%": { transform: "scaleY(1.2)" },
+          "100%": { transform: "scaleY(1)" },
+        },
+      },
+      animation: {
+        "open-menu": "open-menu 0.3s ease-in-out forwards",
+      },
+    },
     colors: {
+      transparent: colors.transparent,
+
       /* DARK COLORS */
       "all-color": colors.zinc,
       "body-color": colors.zinc[950],

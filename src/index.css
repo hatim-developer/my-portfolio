@@ -6,4 +6,8 @@
   .section-min-height {
     min-height: calc(100vh - 64px);
   }
+
+  .toggle-menu {
+    @apply [&>div]:bg-transparent [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div]:rotate-[720deg];
+  }
 }
