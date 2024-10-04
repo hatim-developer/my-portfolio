@@ -94,6 +94,7 @@ const Hero = () => {
               "PixiJs",
               "Cocos2d",
               "Cocos Creator",
+              "Leadership",
             ]}
             className="md:justify-start"
           />
