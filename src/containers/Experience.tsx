@@ -7,7 +7,8 @@ const Experience = () => {
 
   return (
     <section
-      className="section-min-height flex scroll-mt-40 flex-col items-center px-4 py-8"
+      id="experience"
+      className="section-min-height flex scroll-mt-12 flex-col items-center px-4 py-8"
       aria-label="My Work Experience"
     >
       <h2 className="mb-8 text-center text-3xl text-secondary-color md:mb-10 md:text-4xl">

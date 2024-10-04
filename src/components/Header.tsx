@@ -14,11 +14,21 @@ const Header = () => {
             &#9776;
           </button>
           <ul className="hidden flex-row flex-wrap items-center justify-evenly space-x-4 sm:flex md:space-x-10">
-            <li className="hover:text-neutral-color">About</li>
-            <li>Services</li>
-            <li>Experience</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li className="hover:text-highlight-color">
+              <a href="/#hero">Home</a>
+            </li>
+            <li className="hover:text-highlight-color">
+              <a href="/#services">Services</a>
+            </li>
+            <li className="hover:text-highlight-color">
+              <a href="/#experience">Experience</a>
+            </li>
+            <li className="hover:text-highlight-color">
+              <a href="/#projects">Projects</a>
+            </li>
+            <li className="hover:text-highlight-color">
+              <a href="/#contact">Contact</a>
+            </li>
           </ul>
         </nav>
       </section>
